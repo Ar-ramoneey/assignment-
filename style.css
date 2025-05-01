@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(235, 234, 255);
+    position: relative;
+    top: 110px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.result {
+    height: 330px;
+    width: 220px;
+    border-radius: 18px;
+    background: linear-gradient(#7857ff,#2e2be9);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    z-index: 2;
+}
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: linear-gradient(#4e21ca,#2421ca00);
+    text-align: center;
+    position: relative;
+    left: 50%;  
+    display: flex; 
+    flex-direction: column;
+}
+.circle-container {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: linear-gradient(#4e21ca,#2421ca00);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 47px;  
+}
+.score{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.percent {
+    font-size: 14px;
+    opacity: 0.5;
+}
+.summary {
+    height: 340px;
+    width: 250px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: white;
+    padding-left: 40px;
+    position: relative;
+    right: 20px;
+}
+.reaction {
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: hsl(0, 21%, 91%);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.react {
+    color: hsl(0, 100%, 67%);
+    padding: 10px;
+}
+div> .score-80 {
+    padding: 10px;
+}
+.memory {
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: hsla(60, 53%, 93%, 0.904);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.memo {
+    color: hsl(39, 100%, 56%);
+    padding: 10px;
+}
+div> .score-92 {
+    padding: 10px;
+}
+.verbal {
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: hsl(171, 30%, 92%);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.verb {
+    color: hsl(166, 100%, 37%);
+    padding: 10px;
+}
+div> .score-61 {
+    padding: 10px;
+}
+.visual {
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: hsl(241, 100%, 89%);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vis {
+    color: hsl(234, 85%, 45%);
+    padding: 10px;
+}
+div> .score-72 {
+    padding: 10px;
+}
+.continue {
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percentage {
+    font-weight: 100;
+    font-size: 10px;
+}
+.attribution {
+    margin-top: 20px;
+}
